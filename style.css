@@ -1,0 +1,135 @@
+body {
+	margin: 0;
+	padding:0;
+	text-align: center;
+	color: #000; 
+	background: #FFF;	
+}
+#container {
+	width: 647px;
+	margin: 25px auto 0;
+	padding: 0;
+	position: relative; 
+    text-align: left; 
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:link {
+	color: rgb(179,63,96);
+}
+a:visited {
+	color: rgb(90,32,48);
+}
+#pageHeader {
+	background: url(pageHeader2.jpg) 0 0 no-repeat;
+	height: 220px;
+	width: auto;
+	position: relative;
+	z-index: 10;
+	color: #FFFFFF;
+}
+#pageHeader h1 {
+	height: 50px;
+	width: 369px;
+	position: absolute;
+	margin: 0;
+	left: 16px;
+	top: 10px;
+}
+
+#pageHeader h2 {
+	position: absolute; 
+	z-index: 102;
+	top: 134px; 
+	right: 140px; 
+	margin: 0; 
+	padding: 0;
+	color: rgb(91,131,104);
+	text-transform: lowercase; 
+	letter-spacing: 0.2em;
+	font: bold italic 1.1em/1em Times, serif; 
+	text-align: right;
+}
+
+#preamble h3, #supportingText h3 {
+	letter-spacing: 0.1em;
+	font: italic 1.2em Times, "Times New Roman", serif;
+	color: #5A3115; 
+	margin: 1em 0 0.5em 0.5em;
+}
+#preamble, #supportingText {
+	padding-right: 217px;
+}
+#preamble {
+	background: url(side.jpg) 100% 100% repeat-y;
+}
+#supportingText {
+	background: url(side.jpg) 100% 0 repeat-y;
+}
+#linkList {
+	position: absolute; 
+	z-index: 11;
+	width: 216px; 
+	top: 120px; 
+	right: 0;
+	margin-top: 8.6em;
+}
+#linkList a {
+	color: #59331E;
+}
+#linkList ul 
+{
+	margin: 0.5em 1em 0 2em; 
+	padding: 0;
+}
+
+#linkList li {
+	list-style: none;
+}
+
+
+#footer a {
+	color: rgb(207,216,214); 
+	line-height: 1em;
+	font-size: 1.25em; 
+	font-weight: 100;
+}
+html>body #footer {
+	margin-left: 0;
+}
+
+
+#linkList h3 {
+	margin: 1em 0 0 1.5em; 
+	width: 216px; 
+	height: 35px;
+}
+
+#lselect li {
+	font-size: 85%; 
+	margin-bottom: 0.5em;
+}
+
+#lselect li a {
+	display: block;
+	letter-spacing: 0.2em;
+}
+
+#larchives li, #lresources li {
+	margin-bottom: 0.5em;
+}
+
+#larchives li a, #lresources li a {
+	color: #7F4B24;
+}
+
+#preamble, #explanation, #participation, #benefits {
+	border-left: 1px solid #DFC7A3;
+	padding-top: 1px; 
+	padding-bottom: 1px;
+}
+
